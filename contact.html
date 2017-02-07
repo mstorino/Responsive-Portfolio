@@ -1,0 +1,112 @@
+<!-- Activity 1: Basic HTML Bio -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+  <meta charset="UTF-8">
+  <title>Maggie Storino Portfolio</title>
+
+</head>
+
+<body>
+
+<div class="fullPage"> <!-- wrapper for entire page -->
+
+    <header>
+      
+      <nav class="mainNav navBorder">
+       
+       <h1 class="navLogo">Maggie Storino</h1>
+
+         <ul class="navList">
+         
+          <li class="navItem"><a class="navLink" href="contact.html">Contact</a></li>
+
+          <li class="navItem liBorder"><a class="navLink" href="portfolio.html">Portfolio</a></li>
+
+          <li class="navItem liBorder"><a class="navLink"href="index.html">About</a></li>
+
+         </ul>
+
+      </nav>
+      
+    </header>
+    
+    <div class="main-content">
+
+      <!-- Section 1: Contact Form -->
+      <section class="main-bio contact">
+        
+        <h2 class="section1H2 section1Border">Contact</h2>
+
+<!--         FORM -->
+
+          <form class="contactForm" action="action_page.php">
+            
+            <label for="fname">First Name</label>
+            
+            <br>
+            
+            <input type="text" class="contactInput" name="firstname" value="John Smith"/> 
+
+            <br>
+            
+            <label for="lname">Last Name</label>
+            
+            <br>
+            
+            <input type="text" class="contactInput" name="lastname" value="example@gmail.com"/>
+
+            <br>
+            
+            <label for="Message">Message</label>
+            
+            <br>
+            
+            <textarea name="Message" class="contactMessage"/></textarea>
+            
+            <br>
+
+            <input type="submit" class="contactSubmit" value="Submit">
+          
+          </form>
+
+      </section>
+
+      <!-- Section 2: Sidebar -->
+
+      <section class="contact-info">
+
+        <h3 class="section2H3 section2Border">Connect with Me</h3>
+
+        <ul class="contactList">
+          
+          <li class="contactItem">
+            <a class="contactLink" href="https://github.com/mstorino">
+            <img class="logo logoSpacer" src="assets/images/github.png"><alt="git"></a>
+          </li>
+        
+          <li class="contactItem">
+            <a class="contactLink" href="https://www.linkedin.com/in/maggie-storino-244134134/"><img class="logo logoSpacer" src="assets/images/linkedin.png"><alt="linkedIn"></a>
+          </li>
+
+          <li class="contactItem">
+            <a class="contactLink" href="http://stackexchange.com/users/10007317/maggie"><img class="logo" src="assets/images/stackoverflow.png"><alt="stackoverflow"></a>
+          </li>
+
+        </ul> <!-- end contactList -->
+
+      </section>
+
+    </div><!--  end main-content -->
+
+<footer class="footerColor footerBorder">&copy;Copyright 2016 Maggie Storino</footer>
+
+</div> <!-- end fullPage -->
+  </body>
+
+</html>
