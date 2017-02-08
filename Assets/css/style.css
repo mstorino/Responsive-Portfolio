@@ -317,8 +317,9 @@ html, body {
 	
 	.navLogo {
 		display: inline-block;
-		width:480px;
-		padding-left: 150px;
+		width:445px;
+		padding-left: 185px;
+		height: 15px;
 	}
 
 	.navList {
@@ -362,6 +363,9 @@ html, body {
 		width: 310px;
 	}
 
+	.fullPage {
+		margin-left: 0px;
+	}
 }
 
 @media screen and (min-width: 640px) and (max-width: 768px) {
@@ -372,6 +376,10 @@ html, body {
 	.mainNav, .main-content, footer {
     width: 650px; }
 
+
+	.fullPage {
+		margin-left: 20px;
+	}
 
 	.contact-info {
 		float: left;
