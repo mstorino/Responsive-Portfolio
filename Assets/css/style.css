@@ -286,3 +286,134 @@ html, body {
 		footer, .main-content:after {
 		  height: 50px; 
 		}
+
+
+/* 
+  These rules take effect when the browser's width
+  is either 768px or less.
+*/
+
+
+@media screen and (max-width: 640px) {
+	/*body {
+		background-color: green;
+		}*/
+
+	.mainNav {
+   		height: 0px;
+   		padding: 0px;
+	}
+	
+	.mainContent, {
+		width: 500px;
+	}
+
+	footer {
+		width: 600px;
+	}
+	header {
+		position: static;
+	}
+	
+	.navLogo {
+		display: inline-block;
+		width:480px;
+		padding-left: 150px;
+	}
+
+	.navList {
+		float:left;
+		width:650px;
+		background-color: white;
+	}
+	
+	.navItem {
+		padding-right:100px;
+	}
+
+	.liBorder {
+		border: none;
+	}
+	.profile {
+		width: 400px;
+		float: none;
+		padding: 20px 0px 5px 35px;
+	}
+	
+	.main-bio {
+		width: 610px;
+		margin-top: 20px;
+	}
+	.contact-info {
+		float: left;
+		width: 610px;
+		margin: 40px 0px 40px 0px;
+	}
+
+	.logo {
+		width: 10%;
+	}
+
+	.right {
+		float: none;
+	}
+
+	.portfolioImg, .portfolio-label, .portfolio-label2, .portfolio-label3  {
+		width: 310px;
+	}
+
+}
+
+@media screen and (min-width: 640px) and (max-width: 768px) {
+	/*body {
+		background-color: pink;
+		}*/
+
+	.mainNav, .main-content, footer {
+    width: 650px; }
+
+
+	.contact-info {
+		float: left;
+		width: 610px;
+		margin: 40px 0px 40px 0px;
+	}
+
+	.logo {
+		width: 10%;
+	}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 980px) {
+	/*body {
+		background-color: aqua;
+		}*/
+
+	.mainNav, .main-content, footer {
+    width: 810px; }
+	
+	.main-bio {
+		width: 470px;
+	}
+
+	.profile {
+		width: 400px;
+		float: none;
+		padding: 20px 0px 5px 35px;
+	}
+
+	.contact-info {
+		float: left;
+		margin-left: 30px;
+	}
+
+
+	.right {
+		float: none;
+	}
+
+
+
+}
+
